@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+  background: #dbfffd;
+  overflow: hidden;
+  padding: 10%;
+}
+.txt{
+  background-color: #717171;
+  text-align: center;
+  font-weight: bolder;
+  color: #0099ff;
+}
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 2em;
+    color: #69c6ba;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+  
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+  q {font-style: italic;}
+  
+
+
+  footer {
+    background: #69c6ba;
+    text-align: center;    
+    font-size: 0.8rem;
+}
+.social-facebook{
+    margin:20px 10px  ;
+    background-color: #3b5998;
+    color:#fff ;
+}
+.social-instagram{
+    margin:20px 10px  ;
+    color: #fff;
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.social-twitter{
+    margin:20px 10px  ;
+    background-color: #fff;
+    color:#1d9bf0 ;
+
+}
+.social-mail{
+    margin:20px 10px  ;
+  background-color: #980011;
+   color: #fff;
+  
+}
+.social-facebook:hover{
+    
+    color: #1d9bf0;
+    background: #69c6ba;
+  
+}
+.social-instagram:hover{
+    color: #bc1888;
+    background-color:transparent;
+    background: #69c6ba;
+  
+}
+.social-twitter:hover{
+    background-color: transparent;
+    color: #0099ff;
+}
+.social-mail:hover{
+    background-color: transparent;
+    color: rgba(255, 0, 0, 0.575);
+}
+
+
+
+.txtss { color: white;
+font-size: 1rem;
+font-weight: bold; }
+
